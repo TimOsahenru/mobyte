@@ -258,6 +258,7 @@ b, strong {
   font-size: 16px;
   font-weight: normal;
   display: block;
+  color: #4285F4;
 }
 
 .color-mode {
@@ -440,7 +441,7 @@ b, strong {
 }
 
 .contact-info {
-  background: #474559;
+  background: #4285F4;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
@@ -449,15 +450,7 @@ b, strong {
   color: #f7f3f3;
 }
 
-.social-links .uil {
-  color: #f7f3f3;
-  font-size: 20px;
-  display: block;
-  margin: 5px 0;
-}
-.social-links .uil:hover {
-  color: #4285F4;
-}
+
 
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
@@ -557,8 +550,4 @@ b, strong {
     flex-direction: column;
   }
 
-  .social-links li {
-    display: inline-block;
-    vertical-align: top;
-  }
 }
