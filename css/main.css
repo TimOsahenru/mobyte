@@ -549,3 +549,20 @@ b, strong {
   }
 
 }
+@media (max-width: 991px) {
+  .dark-mode .navbar-collapse {
+    background: #1f1f1f; /* Dark background for mobile menu in dark mode */
+  }
+
+  .dark-mode .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8); /* Light text color for dark mode */
+  }
+
+  .dark-mode .navbar-light .navbar-nav .nav-link:hover {
+    color: #4285F4; /* Highlight color on hover */
+  }
+
+  .dark-mode .navbar-light .navbar-nav .nav-link span {
+    color: rgba(255, 255, 255, 0.8); /* Ensure the span text is also visible */
+  }
+}
