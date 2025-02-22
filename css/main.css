@@ -15,7 +15,7 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .small-text {
@@ -548,7 +548,7 @@ b, strong {
   }
 
   .full-screen {
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
 
   .mobile-block {
