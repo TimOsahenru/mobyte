@@ -4,6 +4,16 @@ body {
   padding-top: 70px;
 }
 
+/* Default (Light Mode) */
+.about {
+  background-color: beige; /* Light mode background color */
+}
+
+/* Dark Mode */
+.dark-mode .about {
+  background-color:#0c0c0d; /* Dark mode background color */
+}
+
 .full-screen {
   padding: 8rem 0;
 }
