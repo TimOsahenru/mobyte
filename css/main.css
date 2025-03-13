@@ -643,3 +643,90 @@ b, strong {
     display: block !important; /* Show the dropdown when toggled */
   }
 }
+
+/* Projects Section Styling */
+.project {
+  padding: 4rem 0;
+  background-color: #f9f9f9; /* Light background for the section */
+}
+
+.dark-mode .project {
+  background-color: #1f1f1f; /* Dark background for the section */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #353535;
+  margin-bottom: 1rem;
+}
+
+.dark-mode .section-title {
+  color: #ffffff;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #5b5b5b;
+  margin-bottom: 3rem;
+}
+
+.dark-mode .section-subtitle {
+  color: #cccccc;
+}
+
+.project-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark-mode .project-card {
+  background: #2c2c2c;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .project-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #353535;
+  margin-bottom: 0.5rem;
+}
+
+.dark-mode .project-content h3 {
+  color: #ffffff;
+}
+
+.project-content p {
+  font-size: 1rem;
+  color: #5b5b5b;
+  margin: 0;
+}
+
+.dark-mode .project-content p {
+  color: #cccccc;
+}
