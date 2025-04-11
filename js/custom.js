@@ -1,23 +1,33 @@
 (function ($) {
-
   "use strict";
+
+  // Initialize text on page load
+$(document).ready(function() {
+  var $colorModeText = $('.color-mode span');
+  if ($('body').hasClass('dark-mode')) {
+      $colorModeText.text('Light mode');
+  } else {
+      $colorModeText.text('Dark mode');
+  }
+});
 
     // COLOR MODE
     $('.color-mode').click(function(){
-        $('.color-mode-icon').toggleClass('active')
-        $('body').toggleClass('dark-mode')
-    })
+        $('.color-mode-icon').toggleClass('active');
+        $('body').toggleClass('dark-mode');
+        
+        // Update the text
+        var $colorModeText = $(this).find('span'); // or use a specific selector
+        if ($('body').hasClass('dark-mode')) {
+            $colorModeText.text('Light mode');
+        } else {
+            $colorModeText.text('Dark mode');
+        }
+    });
 
     // HEADER
     $(".navbar").headroom();
 
-    // PROJECT CAROUSEL
-    $('.owl-carousel').owlCarousel({
-    	items: 1,
-	    loop:true,
-	    margin:10,
-	    nav:true
-	});
 
     // SMOOTHSCROLL
     $(function() {

@@ -11,7 +11,7 @@ body {
 
 /* Dark Mode */
 .dark-mode .about {
-  background-color:#0c0c0d; /* Dark mode background color */
+  background-color:#2D2D2D; /* Dark mode background color */
 }
 
 .full-screen {
@@ -273,12 +273,14 @@ b, strong {
 .color-mode {
   font-weight: bold;
   cursor: pointer;
+  color: #4285f4;
 }
 
 .color-mode-icon {
   position: relative;
   right: 6px;
 }
+
 .color-mode-icon:after {
   font-family: 'unicons';
   content: '\ea9f';
@@ -294,7 +296,7 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: #1E1E1E;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -310,6 +312,12 @@ b, strong {
   background: #0d0c15;
   color: #ffffff;
 }
+
+.dark-mode .motto-text {
+  /* background: #0d0c15; */
+  color: #ffffff;
+}
+
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
@@ -320,6 +328,10 @@ b, strong {
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
+}
+
+.dark-mode .contact-info {
+  background: #2D2D2D;
 }
 
 .timeline-wrapper {
@@ -580,6 +592,11 @@ b, strong {
 
 
 @media (max-width: 991px) {
+  .color-mode-icon {
+    color: #4285f4;
+    padding: 5px;
+    margin: 5px;
+  }
   .navbar-collapse {
     position: fixed; /* Fix the dropdown to the screen */
     top: 70px; /* Adjust based on your navbar height */
