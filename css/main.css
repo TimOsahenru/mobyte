@@ -450,7 +450,7 @@ b, strong {
 }
 
 .contact-info a:hover {
-  color: #f7f3f3 !important; /* Ensure the color remains the same on hover */
+  color: #f7f3f3 !important;
 }
 
 @media (min-width: 1270px) {
@@ -552,19 +552,19 @@ b, strong {
 }
 @media (max-width: 991px) {
   .dark-mode .navbar-collapse {
-    background: #1f1f1f; /* Dark background for mobile menu in dark mode */
+    background: #1f1f1f; 
   }
 
   .dark-mode .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.8); /* Light text color for dark mode */
+    color: rgba(255, 255, 255, 0.8);
   }
 
   .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-    color: #4285F4; /* Highlight color on hover */
+    color: #4285F4; 
   }
 
   .dark-mode .navbar-light .navbar-nav .nav-link span {
-    color: rgba(255, 255, 255, 0.8); /* Ensure the span text is also visible */
+    color: rgba(255, 255, 255, 0.8); 
   }
 }
 
@@ -576,66 +576,65 @@ b, strong {
     margin: 5px;
   }
   .navbar-collapse {
-    position: fixed; /* Fix the dropdown to the screen */
-    top: 70px; /* Adjust based on your navbar height */
+    position: fixed; 
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
-    height: calc(100vh - 70px); /* Full height minus navbar height */
-    background: #ffffff; /* Light mode background */
-    z-index: 1000; /* Ensure it appears above other content */
-    padding: 20px; /* Add some padding for spacing */
-    overflow-y: auto; /* Allow scrolling if the menu is too long */
+    height: calc(100vh - 70px); 
+    background: #ffffff;
+    z-index: 1000;
+    padding: 20px; 
+    overflow-y: auto;
   }
 
   .navbar-collapse.collapse {
-    display: none !important; /* Hide the dropdown when collapsed */
+    display: none !important; 
   }
 
   .navbar-collapse.collapse.show {
-    display: block !important; /* Show the dropdown when toggled */
+    display: block !important;
   }
 
   .navbar-nav {
-    width: 100%; /* Make the nav links take full width */
+    width: 100%; 
   }
 
   .navbar-nav .nav-item {
-    text-align: center; /* Center-align the nav links */
-    margin: 10px 0; /* Add spacing between nav items */
+    text-align: center;
+    margin: 10px 0;
   }
 
   .navbar-nav .nav-link {
-    font-size: 18px; /* Increase font size for better readability */
-    padding: 10px 0; /* Add padding to make links easier to tap */
+    font-size: 18px;
+    padding: 10px 0; 
   }
 
-  /* Dark mode styles for the full-width dropdown */
   .dark-mode .navbar-collapse {
-    background: #1f1f1f; /* Dark mode background */
+    background: #1f1f1f;
   }
 
   .dark-mode .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.8); /* Light text color for dark mode */
+    color: rgba(255, 255, 255, 0.8);
   }
 
   .dark-mode .navbar-nav .nav-link:hover {
-    color: #4285F4; /* Highlight color on hover */
+    color: #4285F4; 
   }
 
   .navbar-toggler {
     position: relative;
-    z-index: 1001; /* Ensure the toggle button is above the dropdown */
+    z-index: 1001; 
   }
 }
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
-    display: none !important; /* Hide the dropdown when collapsed */
+    display: none !important; 
   }
 
   .navbar-collapse.collapse.show {
-    display: block !important; /* Show the dropdown when toggled */
+    display: block !important; 
   }
 }
 
