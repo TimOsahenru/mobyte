@@ -677,23 +677,17 @@ b, strong {
   background: #ffffff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .dark-mode .project-card {
   background: #2c2c2c;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.dark-mode .project-card:hover {
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-}
 
 .project-image img {
   width: 100%;
